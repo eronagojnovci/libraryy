@@ -1,0 +1,51 @@
+[ {
+  "id" : 1,
+  "title" : "1984",
+  "author" : "George Orwell",
+  "available" : true
+}, {
+  "id" : 2,
+  "title" : "To Kill a Mockingbird",
+  "author" : "Harper Lee",
+  "available" : false
+}, {
+  "id" : 3,
+  "title" : "The Great Gatsby",
+  "author" : "F. Scott Fitzgerald",
+  "available" : false
+}, {
+  "id" : 4,
+  "title" : "Pride and Prejudice",
+  "author" : "Jane Austen",
+  "available" : false
+}, {
+  "id" : 5,
+  "title" : "Brave New World",
+  "author" : "Aldous Huxley",
+  "available" : true
+}, {
+  "id" : 6,
+  "title" : "Moby Dick",
+  "author" : "Herman Melville",
+  "available" : true
+}, {
+  "id" : 7,
+  "title" : "Hamlet",
+  "author" : "William Shakespeare",
+  "available" : true
+}, {
+  "id" : 8,
+  "title" : "The Hobbit",
+  "author" : "J.R.R. Tolkien",
+  "available" : true
+}, {
+  "id" : 9,
+  "title" : "War and Peace",
+  "author" : "Leo Tolstoy",
+  "available" : true
+}, {
+  "id" : 10,
+  "title" : "The Catcher in the Rye",
+  "author" : "J.D. Salinger",
+  "available" : true
+} ]

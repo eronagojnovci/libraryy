@@ -1,3 +1,4 @@
+package com.library;
 import java.rmi.Naming;
 
 public class Server {

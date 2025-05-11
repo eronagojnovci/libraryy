@@ -5,14 +5,16 @@ public class Book {
     private String title;
     private String author;
     private boolean available;
+    private String cover;
 
     public Book() {}
 
-    public Book(int id, String title, String author, boolean available) {
+    public Book(int id, String title, String author, boolean available, String cover) {
         this.id = id;
         this.title = title;
         this.author = author;
         this.available = available;
+        this.cover = cover;
     }
 
     public int getId() {
@@ -41,5 +43,12 @@ public class Book {
     }
     public void setAvailable(boolean available) {
         this.available = available;
+    }
+
+    public String getCover() {
+        return cover;
+    }
+    public void setCover(String cover) {
+        this.cover = cover;
     }
 }

@@ -1,10 +1,105 @@
 .boho-footer {
-  background: #e6dfd3; // a bit darker than #f8f5f1
-  color: #7c5e3c;
-  text-align: center;
-  padding: 18px 0 12px 0;
+  background: #e6dfd3;
+  color: #3d3020;
   font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  border-top: 1px solid #d2c3b2;
+  padding: 50px 20px 20px;
+  border-top: 3px solid #d2c3b2;
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    .footer-section {
+      flex: 1;
+      min-width: 250px;
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        color: #7c5e3c;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+        color: #7c5e3c;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1.1rem;
+        color: #5c4935;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+          a {
+            color: #5c4935;
+            text-decoration: none;
+            font-size: 1.05rem;
+            transition: color 0.3s;
+
+            &:hover {
+              color: #b89c7d;
+            }
+          }
+        }
+      }
+
+      .icons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        a {
+          font-size: 1.5rem;
+          color: #5c4935;
+          transition: color 0.3s;
+
+          &:hover {
+            color: #b89c7d;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #7c5e3c;
+  }
+
 }

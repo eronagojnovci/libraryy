@@ -1,16 +1,17 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
   margin-bottom: 10px;
-  background: #f5f3ea; 
+  background: #f5f3ea;
   padding: 14px 32px;
   position: fixed;
   display: flex;
   align-items: center;
-  margin-right: 100px;
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -18,24 +19,23 @@ nav {
 
   a {
     margin-right: 28px;
-    color: #7c5e3c; // boho brown
+    color: #7c5e3c;
     text-decoration: none;
-    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    font-family: "Montserrat", "Segoe UI", Arial, sans-serif;
     font-size: 1.1rem;
     letter-spacing: 1px;
     border-radius: 18px;
     padding: 6px 14px;
-    transition: 
-      color 0.2s,
-      background 0.2s,
-      box-shadow 0.2s;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
     &:hover {
-      color: #b89c7d;
-      background: #f9f6f1;
-      text-decoration: underline wavy #b89c7d;
-      box-shadow: 0 2px 8px rgba(180, 150, 120, 0.10);
+      color: #ffffff;
+      font-weight: 600;
+      background: #84574f;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 2px 8px rgba(180, 150, 120, 0.1);
     }
   }
-
 }

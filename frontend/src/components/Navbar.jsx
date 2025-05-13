@@ -8,6 +8,8 @@ const Navbar = () => {
       <Link to="/">Home</Link>
       <Link to="/books">Books</Link>
       <div className="auth-links">
+                {/* {!isLoggedIn && <Link to="/login">Login</Link>} */}
+
       <Link to="/login">Login</Link>
       </div>
     </nav>

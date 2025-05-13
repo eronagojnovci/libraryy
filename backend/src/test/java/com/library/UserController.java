@@ -1,7 +1,5 @@
 package com.library;
 
-import com.library.User;
-import com.library.UserRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

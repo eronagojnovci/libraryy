@@ -1,11 +1,10 @@
 package com.library;
 
-import com.library.User;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UserRepository {
-    private static List<User> users = new ArrayList<>();
+    private static final List<User> users = new ArrayList<>();
 
     public static void addUser(User user) {
         users.add(user);

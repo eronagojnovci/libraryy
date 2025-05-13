@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import './Banner.scss';
 
 const Banner = () => (
@@ -8,7 +9,9 @@ const Banner = () => (
         <h1>ONLINE LIBRARY</h1>
         <h2>Visit our <span>Online library</span></h2>
         <p>Grab your book and go</p>
-        <button>See More</button>
+        <Link to="/books">
+            <button className="see-more-button">See More</button>
+          </Link>
       </div>
       <div className="carousel">
         <div className="carousel-track">

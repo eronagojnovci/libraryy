@@ -11,14 +11,13 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div style={{ marginTop: "70px", padding: 20 }}>
+     
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
-      </div>
       <Footer />
     </Router>
   );

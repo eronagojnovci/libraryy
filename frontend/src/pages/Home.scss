@@ -1,93 +1,25 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-  background: #f8f5f1; 
-}
-
 .home-section {
-  background: #f8f5f1;
+  background-color: #f8f5f1;
   display: flex;
-  justify-content: center;
-  min-height: 80vh;
-  margin-top: 0;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
 
-  .home-content {
+  .banner {
+    background: #f8f5f1;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
-    max-width: 1200px;
-
-    .text-content {
-      flex: 1;
-      h1{
-        font-size: 3rem;
-        margin-bottom: 1.5rem;
-        font-weight: 1000;
-        color: #3d3020; // boho brown
-
-      }
-      h2 {
-        font-size: 2.2rem;
-        margin-bottom: 1.2rem;
-        font-weight: 600;
-        color: #7c5e3c; // boho brown
-
-        span {
-          color: #b89c7d; // boho accent
-        }
-      }
-
-      p {
-        font-size: 1.1rem;
-        color: #7c5e3c;
-        margin-bottom: 1.7rem;
-        line-height: 1.7;
-      }
-
-      button {
-        background-color: #b89c7d;
-        color: #fff;
-        border: none;
-        padding: 0.7rem 1.5rem;
-        border-radius: 22px;
-        cursor: pointer;
-        font-weight: 600;
-        font-family: inherit;
-        font-size: 1rem;
-        box-shadow: 0 2px 8px rgba(180, 150, 120, 0.10);
-        transition: background 0.2s, color 0.2s;
-
-        &:hover {
-          background: #7c5e3c;
-          color: #fff1f2;
-        }
-      }
-    }
-
-    // carousel styles remain unchanged
-    .carousel {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-
-      .carousel-track {
-        display: flex;
-        gap: 1rem;
-
-        img {
-          height: 250px;
-          border-radius: 8px;
-          transition: transform 0.3s ease;
-
-          &:hover {
-            transform: scale(1.05);
-          }
-        }
-      }
-    }
+    overflow-x: hidden;
+  }
+  .topservices {
+    background: #a4937e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
   }
 }

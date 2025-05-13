@@ -1,25 +1,17 @@
 import React from "react";
 import './Home.scss';
+import Banner from "../components/Home/Banner";
+import TopServices from "../components/Home/TopServices";
 
 const Home = () => (
-    
   <div className="home-section">
-  
-    <div className="home-content">
-      <div className="text-content">
-        <h1>ONLINE LIBRARY</h1>
-        <h2>Visit our <span>Online library </span> </h2>
-        <p>Grab your book and go</p>
-        <button>See More</button>
-      </div>
-      <div className="carousel">
-        <div className="carousel-track">
-          <img src="https://m.media-amazon.com/images/I/81yYLUTgWdL.jpg" alt="Anna Karenina" />
-          <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555160733i/1432.jpg" alt="Hamlet" />
-          <img src="https://m.media-amazon.com/images/I/61HkdyBpKOL.jpg" alt="1984" />
-        </div>
-      </div>
+    <div className="banner">
+    <Banner></Banner>
     </div>
+    <div className="topservices">
+    <TopServices></TopServices>
+    </div>
+
   </div>
 );
 

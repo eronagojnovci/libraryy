@@ -7,7 +7,7 @@ html {
 
 nav {
   margin-bottom: 10px;
-  background: #f5f3ea;
+  background: #a4937e;
   padding: 14px 32px;
   position: fixed;
   display: flex;
@@ -19,7 +19,8 @@ nav {
 
   a {
     margin-right: 28px;
-    color: #7c5e3c;
+    color: #ffffff;
+    font-weight: 500;
     text-decoration: none;
     font-family: "Montserrat", "Segoe UI", Arial, sans-serif;
     font-size: 1.1rem;
@@ -30,9 +31,9 @@ nav {
     transition: all 0.3s ease-in-out;
 
     &:hover {
-      color: #ffffff;
+      color: #84574f;
       font-weight: 600;
-      background: #84574f;
+      background: #ffffff;
       cursor: pointer;
       transition: all 0.3s ease-in-out;
       box-shadow: 0 2px 8px rgba(180, 150, 120, 0.1);
